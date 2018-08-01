@@ -1,11 +1,13 @@
+01:11:33
 Random Card Test 1: Testing Adventurer
 Iteration 1
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 1 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 2
 Hand Count Failed
@@ -13,7 +15,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 2 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
+Expected deck count: 4, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 3
@@ -22,7 +24,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 3 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
+Expected deck count: 2, actual: 0
 Expected treasure count: 10, actual: 3
 
 Iteration 4
@@ -31,8 +33,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 4 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 5
 Hand Count Failed
@@ -40,8 +42,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 5 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 6
 Hand Count Failed
@@ -49,8 +51,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 6 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 7
 Hand Count Failed
@@ -58,7 +60,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 7 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
+Expected deck count: 1, actual: 0
 Expected treasure count: 7, actual: 3
 
 Iteration 8
@@ -67,7 +69,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 8 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
+Expected deck count: 1, actual: 0
 Expected treasure count: 7, actual: 3
 
 Iteration 9
@@ -76,7 +78,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 9 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 7, actual: 3
 
 Iteration 10
@@ -85,8 +87,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 10 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 11
 Hand Count Failed
@@ -94,7 +96,7 @@ Treasure Count Failed
 Random Card Test 1 Iteration 11 Failed
 Expected hand count: 7, actual: 5
 Expected deck count: 0, actual: 0
-Expected treasure count: 10, actual: 3
+Expected treasure count: 6, actual: 3
 
 Iteration 12
 Hand Count Failed
@@ -103,7 +105,7 @@ Treasure Count Failed
 Random Card Test 1 Iteration 12 Failed
 Expected hand count: 7, actual: 5
 Expected deck count: 2, actual: 0
-Expected treasure count: 9, actual: 3
+Expected treasure count: 6, actual: 3
 
 Iteration 13
 Hand Count Failed
@@ -111,16 +113,17 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 13 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 14
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 14 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 1, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 15
 Hand Count Failed
@@ -133,11 +136,12 @@ Expected treasure count: 8, actual: 3
 
 Iteration 16
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 16 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 3, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 17
 Hand Count Failed
@@ -145,8 +149,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 17 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 18
 Hand Count Failed
@@ -154,17 +158,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 18 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 3, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 19
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 19 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 20
 Hand Count Failed
@@ -172,8 +175,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 20 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 21
 Hand Count Failed
@@ -181,17 +184,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 21 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 22
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 22 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 23
 Hand Count Failed
@@ -199,16 +201,17 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 23 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
+Expected deck count: 6, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 24
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 24 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 25
 Hand Count Failed
@@ -217,7 +220,7 @@ Treasure Count Failed
 Random Card Test 1 Iteration 25 Failed
 Expected hand count: 7, actual: 5
 Expected deck count: 1, actual: 0
-Expected treasure count: 10, actual: 3
+Expected treasure count: 9, actual: 3
 
 Iteration 26
 Hand Count Failed
@@ -225,7 +228,7 @@ Treasure Count Failed
 Random Card Test 1 Iteration 26 Failed
 Expected hand count: 7, actual: 5
 Expected deck count: 0, actual: 0
-Expected treasure count: 10, actual: 3
+Expected treasure count: 9, actual: 3
 
 Iteration 27
 Hand Count Failed
@@ -233,7 +236,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 27 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 7, actual: 3
 
 Iteration 28
@@ -242,8 +245,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 28 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 29
 Hand Count Failed
@@ -251,7 +254,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 29 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
+Expected deck count: 3, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 30
@@ -260,8 +263,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 30 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 31
 Hand Count Failed
@@ -269,8 +272,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 31 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 32
 Hand Count Failed
@@ -278,7 +281,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 32 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 6, actual: 3
 
 Iteration 33
@@ -287,8 +290,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 33 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 34
 Hand Count Failed
@@ -296,7 +299,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 34 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
+Expected deck count: 3, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 35
@@ -305,8 +308,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 35 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 36
 Hand Count Failed
@@ -314,17 +317,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 36 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 37
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 37 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 38
 Hand Count Failed
@@ -332,8 +334,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 38 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 1, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 39
 Hand Count Failed
@@ -341,8 +343,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 39 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 40
 Hand Count Failed
@@ -350,17 +352,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 40 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 8, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 41
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 41 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 42
 Hand Count Failed
@@ -368,23 +369,25 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 42 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 43
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 43 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 44
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 44 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
+Expected deck count: 5, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 45
@@ -393,7 +396,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 45 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
+Expected deck count: 2, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 46
@@ -402,7 +405,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 46 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
+Expected deck count: 2, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 47
@@ -420,8 +423,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 48 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 3, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 49
 Hand Count Failed
@@ -429,17 +432,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 49 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 50
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 50 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 51
 Hand Count Failed
@@ -447,26 +449,24 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 51 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 52
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 52 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 53
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 53 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 54
 Hand Count Failed
@@ -475,7 +475,7 @@ Treasure Count Failed
 Random Card Test 1 Iteration 54 Failed
 Expected hand count: 7, actual: 5
 Expected deck count: 8, actual: 0
-Expected treasure count: 8, actual: 3
+Expected treasure count: 9, actual: 3
 
 Iteration 55
 Hand Count Failed
@@ -483,8 +483,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 55 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 56
 Hand Count Failed
@@ -492,8 +492,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 56 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 8, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 57
 Hand Count Failed
@@ -510,17 +510,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 58 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
+Expected deck count: 2, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 59
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 59 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 60
 Hand Count Failed
@@ -528,7 +527,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 60 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
+Expected deck count: 1, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 61
@@ -537,17 +536,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 61 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 1, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 62
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 62 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 63
 Hand Count Failed
@@ -555,16 +553,17 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 63 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 64
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 64 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 65
 Hand Count Failed
@@ -572,7 +571,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 65 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
+Expected deck count: 6, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 66
@@ -581,8 +580,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 66 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 67
 Hand Count Failed
@@ -590,16 +589,17 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 67 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
+Expected deck count: 7, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 68
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 68 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 69
 Hand Count Failed
@@ -607,7 +607,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 69 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
+Expected deck count: 5, actual: 0
 Expected treasure count: 7, actual: 3
 
 Iteration 70
@@ -616,8 +616,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 70 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 71
 Hand Count Failed
@@ -625,8 +625,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 71 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 8, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 72
 Hand Count Failed
@@ -634,8 +634,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 72 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 73
 Hand Count Failed
@@ -643,8 +643,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 73 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 8, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 74
 Hand Count Failed
@@ -652,8 +652,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 74 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 75
 Hand Count Failed
@@ -661,7 +661,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 75 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
+Expected deck count: 1, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 76
@@ -670,17 +670,16 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 76 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 77
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 77 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 78
 Hand Count Failed
@@ -688,7 +687,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 78 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
+Expected deck count: 7, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 79
@@ -697,16 +696,17 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 79 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 3, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 80
 Hand Count Failed
+Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 80 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 0, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 81
 Hand Count Failed
@@ -714,7 +714,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 81 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
+Expected deck count: 5, actual: 0
 Expected treasure count: 6, actual: 3
 
 Iteration 82
@@ -723,7 +723,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 82 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 6, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 83
@@ -732,8 +732,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 83 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 84
 Hand Count Failed
@@ -741,8 +741,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 84 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 85
 Hand Count Failed
@@ -750,8 +750,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 85 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 7, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 86
 Hand Count Failed
@@ -759,8 +759,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 86 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 87
 Hand Count Failed
@@ -768,8 +768,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 87 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 88
 Hand Count Failed
@@ -777,8 +777,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 88 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 2, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 89
 Hand Count Failed
@@ -786,7 +786,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 89 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 5, actual: 0
+Expected deck count: 7, actual: 0
 Expected treasure count: 9, actual: 3
 
 Iteration 90
@@ -795,8 +795,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 90 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 91
 Hand Count Failed
@@ -804,8 +804,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 91 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 7, actual: 0
+Expected treasure count: 6, actual: 3
 
 Iteration 92
 Hand Count Failed
@@ -813,8 +813,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 92 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 2, actual: 0
-Expected treasure count: 8, actual: 3
+Expected deck count: 8, actual: 0
+Expected treasure count: 10, actual: 3
 
 Iteration 93
 Hand Count Failed
@@ -822,8 +822,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 93 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 8, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 94
 Hand Count Failed
@@ -831,8 +831,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 94 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 4, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 95
 Hand Count Failed
@@ -840,8 +840,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 95 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 9, actual: 3
+Expected deck count: 6, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 96
 Hand Count Failed
@@ -849,7 +849,7 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 96 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
+Expected deck count: 8, actual: 0
 Expected treasure count: 8, actual: 3
 
 Iteration 97
@@ -858,8 +858,8 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 97 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 7, actual: 0
-Expected treasure count: 6, actual: 3
+Expected deck count: 5, actual: 0
+Expected treasure count: 8, actual: 3
 
 Iteration 98
 Hand Count Failed
@@ -867,27 +867,26 @@ Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 98 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 1, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 3, actual: 0
+Expected treasure count: 9, actual: 3
 
 Iteration 99
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 99 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 3, actual: 0
-Expected treasure count: 10, actual: 3
+Expected deck count: 0, actual: 0
+Expected treasure count: 7, actual: 3
 
 Iteration 100
 Hand Count Failed
-Deck Count Failed
 Treasure Count Failed
 Random Card Test 1 Iteration 100 Failed
 Expected hand count: 7, actual: 5
-Expected deck count: 4, actual: 0
+Expected deck count: 0, actual: 0
 Expected treasure count: 8, actual: 3
 
+01:11:33
 Function 'updateCoins'
 Lines executed:81.82% of 11
 Branches executed:100.00% of 8
@@ -1050,6 +1049,7 @@ Calls executed:13.68% of 95
 Creating 'dominion.c.gcov'
 
 -------------------------------------------------------------------------------------
+01:11:34
 Random Card Test 2: Testing Smithy
 Iteration 1
 Hand Count Failed
@@ -1551,6 +1551,7 @@ Hand Count Failed
 Random Card Test 2 Iteration 100 Failed
 Expected hand count: 8, actual: 7
 
+01:11:34
 Function 'updateCoins'
 Lines executed:81.82% of 11
 Branches executed:100.00% of 8
@@ -1713,6 +1714,7 @@ Calls executed:15.79% of 95
 Creating 'dominion.c.gcov'
 
 -------------------------------------------------------------------------------------
+01:11:34
 Random Card Test 3: Testing Great Hall
 Iteration 1
 Random Card Test 3 Iteration 1 Successfully Completed
@@ -2014,6 +2016,7 @@ Random Card Test 3 Iteration 99 Successfully Completed
 Iteration 100
 Random Card Test 3 Iteration 100 Successfully Completed
 
+01:11:34
 Function 'updateCoins'
 Lines executed:81.82% of 11
 Branches executed:100.00% of 8

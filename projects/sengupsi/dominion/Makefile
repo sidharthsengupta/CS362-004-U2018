@@ -86,21 +86,27 @@ unittestresults: dominion.o rngs.o
 
 randomtestresults:  dominion.o rngs.o
 	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o rngs.o $(CFLAGS)
-	./randomtestcard1 > randomtestresults.out 
+	date +"%H:%M:%S" > randomtestresults.out
+	./randomtestcard1 >> randomtestresults.out 
+	date +"%H:%M:%S" >> randomtestresults.out
 	gcov -f -b dominion.c >> randomtestresults.out
 	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard1
 	make dominion.o
 	make rngs.o	
 	echo ------------------------------------------------------------------------------------- >> randomtestresults.out
 	gcc -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o $(CFLAGS)
+	date +"%H:%M:%S" >> randomtestresults.out
 	./randomtestcard2 >> randomtestresults.out 
+	date +"%H:%M:%S" >> randomtestresults.out
 	gcov -f -b dominion.c >> randomtestresults.out
 	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard2
 	make dominion.o
 	make rngs.o	
 	echo ------------------------------------------------------------------------------------- >> randomtestresults.out
 	gcc -o randomtestcard3 randomtestcard3.c -g dominion.o rngs.o $(CFLAGS)
+	date +"%H:%M:%S" >> randomtestresults.out
 	./randomtestcard3 >> randomtestresults.out 
+	date +"%H:%M:%S" >> randomtestresults.out
 	gcov -f -b dominion.c >> randomtestresults.out
 	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard3
 
