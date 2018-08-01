@@ -1,8 +1,8 @@
 /***********************************
  * Sidharth Sengupta
- * Random Test 1 for Assignment 4
- * Tests Adventurer Card
- ***********************************/
+ * Random Test 2 for Assignment 4
+ * Tests the great hall card
+ ************************************/
 #include "dominion.h"
 #include "dominion_helpers.h"
 #include "rngs.h"
@@ -28,81 +28,51 @@ int main() {
     int k[10] = {adventurer, council_room, feast, gardens, mine, 
                  remodel, smithy, village, baron, great_hall};
     struct gameState G;
-    int t, x, i, j; 
-	int size, c1, c2; 
-    int treasureBefore, treasureAfter;  
+    int x, i, j;  
+    int p, size, top;
 	srand(time(0));
 
-    printf("Random Card Test 1: Testing Adventurer\n");
 
-    for(i = 0; i < NUMTRIES; i++) {
+    printf("Random Card Test 3: Testing Great Hall\n");
 
-		printf("Iteration %d\n", i + 1);
-        initializeGame(numPlayer, k, seed, &G);
-		x = 1;       
- 
-		updateCoins(0, &G, 0);
-        treasureBefore = G.coins;
-        treasureAfter = treasureBefore;
-        
-		G.deckCount[0] = 0;
-        G.discardCount[0] = size = (rand() % 9) + 2;
-        
-		for(j = 0; j < size; j++) 
-            G.discard[0][j] = estate;
+	for(i = 0; i < NUMTRIES; i++) {
 
-		c1 = rand() % size;
-		c2 = rand() % size;
-		while(c1 == c2) 
-			c2 = rand() % size;
+        printf("Iteration %d\n", i + 1);
+		initializeGame(numPlayer, k, seed, &G);
+		p = rand() % 2;
+		G.whoseTurn = p;
 
-        t = rand() % 3;
-        if(t == 0) {
-			G.discard[0][c1] = copper;
-            treasureAfter += 1;
-        }
-        else if(t == 1) {
-			G.discard[0][c1] = silver;
-            treasureAfter += 2;
-        }
-		else {
-            G.discard[0][c1] = gold;
-            treasureAfter += 3;
-        }
-        
-        t = rand() % 3;
-        if(t == 0) {
-			G.discard[0][c2] = copper;
-            treasureAfter += 1;
-        }
-        else if(t == 1) {
-			G.discard[0][c2] = silver;
-            treasureAfter += 2;
-        }
-		else {
-            G.discard[0][c2] = gold;
-            treasureAfter += 3;
-        }
-        
-		G.hand[0][0] = adventurer;
+		if(p != 0) {		
+			for (j = 0; j < 5; j++)
+				drawCard(G.whoseTurn, &G);
+		}
+		x = 1;
+	
+        G.deckCount[p] = size = (rand() % 9) + 2;
+
+        for(j = 0; j < size; j++) 
+			G.deck[p][j] = k[rand() % 10];
+
+		top = G.deck[p][size - 1];
+
+		G.hand[p][0] = great_hall;
 		playCard(0, 0, 0, 0, &G);
 
-        if(asserttrue(7, G.handCount[0], "Hand Count Failed") == 0 && x != 0)
+        if(asserttrue(5, G.handCount[p], "Hand Count Failed") == 0 && x != 0)
             x = 0;
-        if(asserttrue(size - 2, G.deckCount[0], "Deck Count Failed") == 0 && x != 0)
+        if(asserttrue(top, G.hand[p][0], "Top Card Failed") == 0 && x != 0)
             x = 0;
-        updateCoins(0, &G, 0);
-        if(asserttrue(treasureAfter, G.coins, "Treasure Count Failed") == 0 && x != 0)
+        if(asserttrue(1, G.numActions, "Num Actions Failed") == 0 && x != 0)
             x = 0;
 
-        if(x)
-            printf("Random Card Test 1 Iteration %d Successfully Completed\n\n", i + 1);
+		if(x)
+            printf("Random Card Test 3 Iteration %d Successfully Completed\n\n", i + 1); 
         else {
-            printf("Random Card Test 1 Iteration %d Failed\n", i + 1);
-            printf("Expected hand count: 7, actual: %d\n", G.handCount[0]);
-            printf("Expected deck count: %d, actual: %d\n", size - 2, G.deckCount[0]);
-            printf("Expected treasure count: %d, actual: %d\n\n", treasureAfter, G.coins);
-        }
-    }
-	return 0;
+            printf("Random Card Test 3 Iteration %d Failed\n", i + 1); 
+            printf("Expected hand count: 5, actual: %d\n", G.handCount[p]);
+            printf("Expected top card: %d, actual: %d\n", top, G.hand[p][0]);
+            printf("Expected num actions: 1, actual: %d\n\n", G.numActions);
+		}   
+    }   
+    return 0;
 }
