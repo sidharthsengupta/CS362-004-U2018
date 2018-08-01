@@ -29,6 +29,81 @@ runtests: testDrawCard
 	gcov dominion.c >> unittestresult.out
 	cat dominion.c.gcov >> unittestresult.out
 
+unittestresults: dominion.o rngs.o
+	gcc -o unittest1 unittest1.c -g dominion.o rngs.o $(CFLAGS)
+	./unittest1 > unittestresults.out 
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe unittest1
+	make dominion.o
+	make rngs.o	
+	gcc -o unittest2 unittest2.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./unittest2 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe unittest2
+	make dominion.o
+	make rngs.o	
+	gcc -o unittest3 unittest3.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./unittest3 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe unittest3
+	make dominion.o
+	make rngs.o	
+	gcc -o unittest4 unittest4.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./unittest4 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe unittest4
+	make dominion.o
+	make rngs.o	
+	gcc -o cardtest1 cardtest1.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./cardtest1 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe cardtest1
+	make dominion.o
+	make rngs.o	
+	gcc -o cardtest2 cardtest2.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./cardtest2 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe cardtest2
+	make dominion.o
+	make rngs.o	
+	gcc -o cardtest3 cardtest3.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./cardtest3 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe cardtest3
+	make dominion.o
+	make rngs.o	
+	gcc -o cardtest4 cardtest4.c -g dominion.o rngs.o $(CFLAGS)
+	echo ------------------------------------------------------------------------------------- >> unittestresults.out
+	./cardtest4 >> unittestresults.out
+	gcov -f -b dominion.c >> unittestresults.out
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe cardtest4
+
+randomtestresults:  dominion.o rngs.o
+	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o rngs.o $(CFLAGS)
+	./randomtestcard1 > randomtestresults.out 
+	gcov -f -b dominion.c >> randomtestresults.out
+	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard1
+	make dominion.o
+	make rngs.o	
+	echo ------------------------------------------------------------------------------------- >> randomtestresults.out
+	gcc -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o $(CFLAGS)
+	./randomtestcard2 >> randomtestresults.out 
+	gcov -f -b dominion.c >> randomtestresults.out
+	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard2
+	make dominion.o
+	make rngs.o	
+	echo ------------------------------------------------------------------------------------- >> randomtestresults.out
+	gcc -o randomtestcard3 randomtestcard3.c -g dominion.o rngs.o $(CFLAGS)
+	./randomtestcard3 >> randomtestresults.out 
+	gcov -f -b dominion.c >> randomtestresults.out
+	rm -f *.o playdom.exe playdom player player.exe *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe randomtestcard3
+
 
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
